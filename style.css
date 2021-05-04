@@ -100,3 +100,89 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/*
+** project specific styles
+*********************************/
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote {
+	padding: .75rem 0;	/* top and bottom, left and right */
+}
+
+body {
+	font-size: 1.0em;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 3em;
+	font-family: 'Lato', Trebuchet MS, serif;
+	line-height: 1.75em;
+}
+
+img {
+	display: block;	/* remove padding completely */
+}
+
+.name {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-style: italic;
+	font-size: 1.2rem;
+	padding: 0.5rem 0;
+	text-align: right;
+}
+
+.width-managed {
+	margin: auto;
+	max-width: 50em;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.highlight {
+	background: rgb(245, 245, 245);
+	border-top: 1px solid rgb(200, 220, 200);
+	border-bottom: 1px solid rgb(200, 220, 200);
+}
+
+/* circular portrait */
+.circular-portrait img{
+  width:10em;
+  height:10em;
+	overflow: hidden;
+  border-radius: 50%;
+	object-fit: cover;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* container to enable placing text to the right of image */
+.container {
+    display: flex;
+    align-items:center;
+}
+
+/* main banner */
+.main-banner {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-style: italic;
+	font-size: 1.5em;
+	line-height: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	position: relative;
+}
+
+.copyright {
+	font-size: .7em;
+}
+
+.marker {
+	height: 1px;
+	background: rgb(180, 200, 180);
+	width: 4rem;
+	margin-top: 0;
+	margin-bottom: 2.5em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
