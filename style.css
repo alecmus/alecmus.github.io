@@ -117,10 +117,6 @@ body {
 	line-height: 1.75em;
 }
 
-img {
-	display: block;	/* remove padding completely */
-}
-
 .name {
 	font-family: Georgia, serif;
 	font-style: italic;
@@ -142,6 +138,69 @@ img {
 	border-bottom: 1px solid rgb(200, 220, 200);
 }
 
+h2 {
+	clear: both;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 1em 0;
+	line-height: 1em;
+	position: relative;
+}
+
+/* section */
+h2.section {
+  overflow-x: hidden;
+}
+
+h2.section span {
+	position: relative;
+}
+
+h2.section span:before,
+h2.section span:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	background: rgb(140, 170, 140);  /* line color */
+	top: 60%;    /* slightly below half-way from the top of the text */
+	width: 50vw; /* span entire browser page width (when there's zero text) */
+}
+
+/* line to the left of section heading */
+h2.section span:before {
+	right: 100%;
+	margin-right: .5rem;
+}
+
+/* line to the right of section heading */
+h2.section span:after{
+	left: 100%;
+	margin-left: .5rem;
+}
+
+h2 a {
+   color: inherit;
+}
+
+blockquote {
+	position: relative;
+	padding-left: 3rem;
+}
+
+blockquote:before {
+	content:"\201C";
+	font-size: 12rem;
+	color: rgb(230, 240, 230);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: -1;
+}
+
+.top-skill {
+  padding-left: 3rem; /* match blockquote padding */
+}
+
 /* circular portrait */
 .circular-portrait img{
   width:10em;
@@ -161,6 +220,10 @@ img {
     align-items:center;
 }
 
+.container img {
+	display: block;	/* remove image padding completely within container */
+}
+
 /* main banner */
 .main-banner {
 	font-family: Georgia, serif
@@ -178,7 +241,7 @@ img {
 
 .marker {
 	height: 1px;
-	background: rgb(180, 200, 180);
+	background: rgb(140, 170, 140);
 	width: 4rem;
 	margin-top: 0;
 	margin-bottom: 2.5em;
