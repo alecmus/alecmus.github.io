@@ -117,6 +117,10 @@ body {
 	line-height: 1.75em;
 }
 
+footer {
+	padding-top: 2.0rem;
+}
+
 .name {
 	font-family: Georgia, serif;
 	font-style: italic;
@@ -237,6 +241,7 @@ blockquote:before {
 
 .copyright {
 	font-size: .7em;
+  line-height: .7em;
 }
 
 .marker {
