@@ -142,6 +142,7 @@ footer {
 	border-bottom: 1px solid rgb(200, 220, 200);
 }
 
+/* h2 */
 h2 {
 	clear: both;
 	text-align: center;
@@ -184,6 +185,16 @@ h2.section span:after{
 
 h2 a {
    color: inherit;
+}
+
+/* h3 */
+h3 {
+	clear: both;
+	text-align: center;
+	font-size: 2em;
+	padding: 0.5em 0;
+	line-height: 1em;
+	position: relative;
 }
 
 blockquote {
