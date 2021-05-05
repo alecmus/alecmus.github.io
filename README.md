@@ -1,2 +1,2 @@
 # alecmus.github.io
-Alec's Profile
+Home of my simple personal site, built using pure HTML and CSS.
