@@ -249,6 +249,15 @@ blockquote:before {
 	position: relative;
 }
 
+/* social icons */
+.social{
+    text-align: center;
+}
+
+.social img {
+  margin: 10px;
+}
+
 .copyright {
 	font-size: .7em;
   line-height: .7em;
