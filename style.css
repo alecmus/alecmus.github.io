@@ -223,7 +223,15 @@ blockquote:before {
 	overflow: hidden;
   border-radius: 50%;
 	object-fit: cover;
-	padding-left: 1em;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+  box-shadow: 0.25em 0.25em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+.portrait-padding .circular-portrait {
+  padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
