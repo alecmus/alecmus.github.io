@@ -124,9 +124,11 @@ footer {
 .name {
 	font-family: Georgia, serif;
 	font-style: italic;
+  font-weight: bold;
 	font-size: 1.2rem;
 	padding: 0.5rem 0;
 	text-align: right;
+  color: rgb(130, 130, 130);
 }
 
 .width-managed {
