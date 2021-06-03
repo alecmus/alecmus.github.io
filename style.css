@@ -129,7 +129,8 @@ footer {
 	position: relative;
 }
 
-.format-link a:hover, a:focus {
+.format-link a:hover,
+.format-link a:focus {
   color: #fff;
 	border-bottom: none;
 	background: rgb(100, 120, 100);
@@ -196,7 +197,7 @@ h2.section span:before {
 }
 
 /* line to the right of section heading */
-h2.section span:after{
+h2.section span:after {
 	left: 100%;
 	margin-left: .5rem;
 }
