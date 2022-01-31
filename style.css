@@ -300,3 +300,19 @@ blockquote:before {
 	margin-right: auto;
 	display: block;
 }
+
+/* buttons */
+.btn {
+  font-family: Georgia, serif;
+  background-color: rgb(15, 128, 192);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: .8em;
+  border-radius: .5em;
+}
+
+.btn:hover {
+  background-color: rgb(100, 120, 100);
+}
