@@ -290,6 +290,11 @@ blockquote:before {
   line-height: 1.5em;
 }
 
+.caption {
+	font-size: .7em;
+  line-height: 1.5em;
+}
+
 .marker {
 	height: 1px;
 	background: rgb(140, 170, 140);
