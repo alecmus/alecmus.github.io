@@ -350,8 +350,8 @@ https://www.sliderrevolution.com/resources/css-menu/
 #menu {
   position: relative;
   float: left;
-  width: 100%;
-  padding: 0 15px;
+  padding: 0 15px;  /* 15px padding to the left and the right */
+  width: calc(100% - 30px); /* cater for the two 15px paddings on the left and right */
   border-radius: 3px;
   box-shadow: inset 0 1px 1px rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
   background: rgb(245, 245, 245);
